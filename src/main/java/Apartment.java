@@ -13,6 +13,7 @@ public class Apartment {
     String metroStation;
     double distanceToMetro;
     String realEstateAgency;
+    boolean like;
 
     @Override
     public String toString() {
@@ -25,9 +26,8 @@ public class Apartment {
                 "\n" + residentialComplex +
                 "\n" + address +
                 "\n" + district +
-                "\n" + metroStation +
-                "\n" + distanceToMetro + " км" +
+                "\n" + metroStation + ", " + distanceToMetro + " км" +
                 "\n" + realEstateAgency +
-                "\n";
+                "\n" + like ;
     }
 }
