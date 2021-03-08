@@ -7,12 +7,14 @@ public class Main {
         apartmentOne.numberOfRooms = 1;
         apartmentOne.area = 31.2;
         apartmentOne.floor = 9;
+        apartmentOne.totalFloor = 19;
         apartmentOne.price = 4_046_000;
         apartmentOne.residentialComplex = "ЖК 'Станция Спортивная'";
         apartmentOne.address = "пр.Детский, д. 1.2";
         apartmentOne.district = "р-н Приволжский";
         apartmentOne.realEstateAgency = "Агенство";
         apartmentOne.like = false;
+        apartmentOne.created = 1;
         System.out.println(apartmentOne);
         System.out.println();
 
@@ -24,6 +26,7 @@ public class Main {
         apartmentTwo.numberOfRooms = 1;
         apartmentTwo.area = 33;
         apartmentTwo.floor = 17;
+        apartmentTwo.totalFloor = 19;
         apartmentTwo.price = 4_350_000;
         apartmentTwo.residentialComplex = "ЖК 'Казань XXI век'";
         apartmentTwo.address = "пр-т Альберта Камалеева, д. 32Б";
@@ -31,6 +34,7 @@ public class Main {
         apartmentTwo.distanceToMetro = 2.5;
         apartmentTwo.realEstateAgency = "Агенство недвижимости 'Ключ'";
         apartmentTwo.like = false;
+        apartmentTwo.created = 2;
         System.out.println(apartmentTwo);
         System.out.println();
 
@@ -41,6 +45,7 @@ public class Main {
         apartmentThree.numberOfRooms = 3;
         apartmentThree.area = 132.1;
         apartmentThree.floor = 4;
+        apartmentThree.totalFloor = 5;
         apartmentThree.price = 21_150_000;
         apartmentThree.verification = "Проверена в ЕГРН";
         apartmentThree.address = "ул. Карла Маркса, 39А";
@@ -48,6 +53,7 @@ public class Main {
         apartmentThree.distanceToMetro = 1.1;
         apartmentThree.realEstateAgency = "Агенство недвижимости 'Ключ'";
         apartmentThree.like = false;
+        apartmentThree.created = 3;
         System.out.println(apartmentThree);
 
 

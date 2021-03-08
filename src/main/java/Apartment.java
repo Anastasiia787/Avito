@@ -5,6 +5,7 @@ public class Apartment {
     int numberOfRooms;
     double area;
     int floor;
+    int totalFloor;
     long price;
     String verification;
     String residentialComplex;
@@ -14,13 +15,17 @@ public class Apartment {
     double distanceToMetro;
     String realEstateAgency;
     boolean like;
+    long created;
 
     @Override
     public String toString() {
         return id +
                 "\n" + url +
                 "\n" + image +
-                "\n" + numberOfRooms + "-к. квартира, " + area + " м², " + floor + " эт." +
+                "\n" + numberOfRooms + "-к. квартира, " +
+                area + " м², " +
+                floor + "/"+
+                totalFloor +" эт." +
                 "\n" + price + " руб." +
                 "\n" + verification +
                 "\n" + residentialComplex +
@@ -28,6 +33,7 @@ public class Apartment {
                 "\n" + district +
                 "\n" + metroStation + ", " + distanceToMetro + " км" +
                 "\n" + realEstateAgency +
-                "\n" + like ;
+                "\n" + like +
+                "\n" + created;
     }
 }
